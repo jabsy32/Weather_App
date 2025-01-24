@@ -1,0 +1,12 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gradient-background {
+  background: linear-gradient(to bottom, #1e3a6a, #1e309b);
+}
+
+.gradient-container-background {
+  background: linear-gradient(to right, #172554, #1E40AF)
+}
