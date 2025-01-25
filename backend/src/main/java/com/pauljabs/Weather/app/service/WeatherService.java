@@ -28,7 +28,6 @@ public class WeatherService {
         int forecastDayLength = longerForecast ? 7 : 3;
 
         currentResponse = client.getWeather(location, forecastDayLength);
-        System.out.println(currentResponse);
         return currentResponse;
     }
 
