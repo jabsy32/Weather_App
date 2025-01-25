@@ -5,19 +5,21 @@
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
-    "module": "CommonJS",
     "target": "ES6",
-    "declaration": true,  // Generate .d.ts files
-    "declarationDir": "./types",
+    "module": "ESNext",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "typeRoots": ["node_modules/@types", "src/types"],
+    "typeRoots": ["node_modules/@types"],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "dist"]
 }
