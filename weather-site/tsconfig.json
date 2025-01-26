@@ -5,6 +5,8 @@
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
+    "composite": true,        // Enable project references
+    "declaration": true,
     "target": "ES6",
     "module": "ESNext",
     "jsx": "react",
@@ -21,5 +23,4 @@
     }
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "build", "dist"]
 }
