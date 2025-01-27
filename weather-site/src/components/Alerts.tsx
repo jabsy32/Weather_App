@@ -1,12 +1,11 @@
-import { useLocationContext } from "@/context/LocationContext";
 import { clsx } from "clsx";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useLocationContext } from "@/context/LocationContext";
 
 const Alerts = ({ alerts }: AlertProps) => {
   const [warning, setWarning] = useState(false);
   const { savedLocation } = useLocationContext();
-
   const alertArray = Array.isArray(alerts) ? alerts : alerts?.alert;
 
   useEffect(() => {

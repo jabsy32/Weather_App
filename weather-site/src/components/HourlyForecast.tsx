@@ -1,6 +1,6 @@
-import { formatTimeUpdate } from "@/lib/utils.ts";
+import { formatTimeUpdate } from "@/lib/utils";
 import { clsx } from "clsx";
-import WindDirection from "@/components/WindDirection.tsx";
+import WindDirection from "@/components/WindDirection";
 
 const HourlyForecast = ({ hours, time, today }: HourlyDataProps) => {
   if (!hours || !Array.isArray(hours)) {

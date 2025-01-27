@@ -26,7 +26,7 @@ const WeatherNews = () => {
     <div className="flex flex-col text-white items-center p-5 h-full">
       <h1>Latest World News</h1>
       {newArticles ? (
-        <div className="flex flex-col pt-10 items-start  ">
+        <div className="flex flex-col pt-10 items-start">
           <div>
             <NewsComponent article={newArticles[0]} />
           </div>

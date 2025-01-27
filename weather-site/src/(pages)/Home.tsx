@@ -1,5 +1,5 @@
-import Header from "@/components/Header.tsx";
-import LastSearchedData from "@/components/LastSearchedData.tsx";
+import Header from "@/components/Header";
+import LastSearchedData from "@/components/LastSearchedData";
 import Alerts from "@/components/Alerts";
 import WeatherNews from "@/components/WeatherNews";
 import { useAlertContext } from "@/context/AlertContext";

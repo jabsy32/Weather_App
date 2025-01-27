@@ -1,6 +1,8 @@
 const NewsComponent = ({ article }: NewsProps) => {
   if (!article) return;
 
+  console.log(article.imgUrl);
+
   return (
     <div className="flex flex-col items-start justify-center h-full p-5">
       <div className="flex flex-col items-center">

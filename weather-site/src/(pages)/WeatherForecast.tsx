@@ -1,9 +1,9 @@
 import { useLocation } from "react-router-dom";
-import Header from "@/components/Header.tsx";
+import Header from "@/components/Header";
 import { useEffect, useState } from "react";
-import DayForecast from "@/components/DayForecast.tsx";
-import HourlyForecast from "@/components/HourlyForecast.tsx";
-import DetailedDayForecast from "@/components/DetailedDayForecast.tsx";
+import DayForecast from "@/components/DayForecast";
+import HourlyForecast from "@/components/HourlyForecast";
+import DetailedDayForecast from "@/components/DetailedDayForecast";
 import { useLocationContext } from "@/context/LocationContext";
 import { backgrounds } from "@/lib/utils";
 import { useAlertContext } from "@/context/AlertContext";

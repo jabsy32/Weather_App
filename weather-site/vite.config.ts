@@ -11,6 +11,9 @@ export default defineConfig({
       "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap",
     ]),
   ],
+  build: {
+    outDir: "dist", // Ensure the build output is in the `dist` folder
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

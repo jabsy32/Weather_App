@@ -1,8 +1,8 @@
-import { useLocationContext } from "@/context/LocationContext.tsx";
+import { useLocationContext } from "@/context/LocationContext";
 import { useEffect, useState } from "react";
-import { getWeatherForecast } from "@/lib/utils.ts";
+import { getWeatherForecast } from "@/lib/utils";
 import { Link } from "react-router-dom";
-import { isValidCity } from "@/lib/actions.ts";
+import { isValidCity } from "@/lib/actions";
 
 const LastSearchedData = () => {
   const { savedLocation } = useLocationContext();

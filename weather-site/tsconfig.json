@@ -1,26 +1,24 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ],
   "compilerOptions": {
-    "composite": true,        // Enable project references
-    "declaration": true,
     "target": "ES6",
     "module": "ESNext",
-    "jsx": "react",
-    "moduleResolution": "node",
     "strict": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "typeRoots": ["node_modules/@types"],
-    "baseUrl": ".",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "outDir": "./dist", // Ensure build artifacts are output here
+    "declaration": true,
+    "declarationDir": "./dist/types"
   },
-  "include": ["src/**/*"],
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }

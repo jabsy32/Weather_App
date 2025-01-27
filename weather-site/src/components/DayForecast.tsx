@@ -1,4 +1,4 @@
-import { backgrounds, formatDate } from "@/lib/utils.ts";
+import { backgrounds, formatDate } from "@/lib/utils";
 import React, { useState } from "react";
 import { clsx } from "clsx";
 

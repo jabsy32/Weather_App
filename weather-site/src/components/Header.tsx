@@ -1,4 +1,4 @@
-import SearchBar from "@/components/SearchBar.tsx";
+import SearchBar from "@/components/SearchBar";
 import { useLocation, Link } from "react-router-dom";
 import { clsx } from "clsx";
 
