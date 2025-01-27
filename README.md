@@ -117,3 +117,11 @@ weather-backend/
 │       └── application.properties  # Environment variables
 ├── pom.xml               # Maven dependencies
 ```
+
+## Known Issues
+Be mindful of the API rate limits for the WeatherAPI (free plans have a limited number of requests per day).
+Ensure proper error handling for network issues or invalid city names.
+
+## Acknowledgments
+WeatherAPI for providing weather data.
+TailwindCSS for enabling rapid frontend development.
