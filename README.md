@@ -43,6 +43,7 @@ A valid API key from WeatherAPI
 ```bash
 git clone https://github.com/yourusername/Weather_App.git
 cd Weather_App
+bash```
 
 2. Install Dependencies
 Frontend:
