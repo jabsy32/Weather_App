@@ -28,9 +28,9 @@ Environment variables for secure configuration
 API Used:
 WeatherAPI: https://www.weatherapi.com/
 
-### Getting Started
+## Getting Started
 
-## Prerequisites
+### Prerequisites
 
 #### Make sure you have the following installed:
 Java 17+
