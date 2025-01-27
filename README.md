@@ -119,9 +119,10 @@ weather-backend/
 ```
 
 ## Known Issues
-Be mindful of the API rate limits for the WeatherAPI (free plans have a limited number of requests per day).
-Ensure proper error handling for network issues or invalid city names.
+- Be mindful of the API rate limits for the WeatherAPI (free plans have a limited number of requests per month).
+- Despite coding for 7 day forecast, only 3 days is recieved by the API ( assuming due to free plan ).
+- Ensure proper error handling for network issues or invalid city names.
 
 ## Acknowledgments
-WeatherAPI for providing weather data.
-TailwindCSS for enabling rapid frontend development.
+- WeatherAPI for providing weather data.
+- TailwindCSS for enabling rapid frontend development.
