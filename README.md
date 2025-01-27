@@ -15,45 +15,48 @@ Responsive and user-friendly interface.
 ## Tech Stack
 
 Frontend:
-React
-TypeScript
-TailwindCSS
-React Router
+- React
+- TypeScript
+- TailwindCSS
+- React Router
 
 Backend:
-Spring Boot (Java)
-REST API integration with WeatherAPI
-Environment variables for secure configuration
+- Spring Boot (Java)
+- REST API integration with WeatherAPI
+- Environment variables for secure configuration
 
 API Used:
-WeatherAPI: https://www.weatherapi.com/
+- WeatherAPI: https://www.weatherapi.com/
 
 ## Getting Started
 
 ### Prerequisites
 
 #### Make sure you have the following installed:
-Java 17+
-Maven (for building Spring Boot backend)
-Node.js (v16+ recommended for the frontend)
-A valid API key from WeatherAPI
+- Java 17+
+- Maven (for building Spring Boot backend)
+- Node.js (v16+ recommended for the frontend)
+- A valid API key from WeatherAPI
 
 #### Installation
 1. Clone the Repository
 ```bash
 git clone https://github.com/yourusername/Weather_App.git
 cd Weather_App
-bash```
+```
 
 2. Install Dependencies
 Frontend:
+```bash
 cd weather-site
 npm install
+```
 
 Backend:
+```bash
 cd weather-backend
 mvn install
-
+```
 ## Setup
 
 3. Add Environment Variables
@@ -69,13 +72,16 @@ WEATHER_API_KEY=your_weatherapi_key
 4. Run the Backend
 
 Navigate to the backend folder and start the Spring Boot application:
+```bash
 cd weather-backend
 mvn spring-boot:run
+```
 By default, the backend runs on http://localhost:8080.
 
 5. Run the Frontend
 Navigate to the frontend folder and start the development server:
-
+```bash
 cd weather-site
 npm run dev
+```
 By default, the frontend runs on http://localhost:5173.
