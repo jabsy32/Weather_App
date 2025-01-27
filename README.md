@@ -40,8 +40,9 @@ A valid API key from WeatherAPI
 
 #### Installation
 1. Clone the Repository
-- git clone https://github.com/yourusername/Weather_App.git
-- cd Weather_App
+```bash
+git clone https://github.com/yourusername/Weather_App.git
+cd Weather_App
 
 2. Install Dependencies
 Frontend:
