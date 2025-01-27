@@ -85,3 +85,35 @@ cd weather-site
 npm run dev
 ```
 By default, the frontend runs on http://localhost:5173.
+
+## Project Structure
+Frontend:
+```bash
+weather-site/
+├── src/
+│   ├── (pages)/  # Main pages (Home, Forecast, Alerts)
+│   ├── components/  # Reusable UI components
+│   ├── context/     # React Context for state management
+│   ├── lib/         # Utility functions (e.g., API calls)
+│   ├── assets/      # Static assets (images, icons)
+│   ├── services/    # weather scrapping function
+│   ├── App.tsx      # Main application entry point
+│   └── main.tsx     # ReactDOM rendering
+├── package.json     # Frontend dependencies
+```
+
+Backend:
+```bash
+weather-backend/
+├── src/main/
+│   ├── java/com/example/weatherapp/  # Backend Java code
+│   │   ├── client/       # connecting to API
+│   │   ├── controller/   # REST API controllers
+│   │   ├── dto/          # dto models
+│   │   ├── exceptions/   # exceptions for API etc
+│   │   ├── model/        # Data models
+│   │   ├── service/      # Business logic for API calls
+│   └── resources/
+│       └── application.properties  # Environment variables
+├── pom.xml               # Maven dependencies
+```
