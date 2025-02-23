@@ -3,7 +3,8 @@
 ## Description
 This is a weather application that displays current weather conditions, multi-day forecasts, and weather alerts. The project uses a React frontend and a Spring Boot backend to deliver real-time weather data powered by the WeatherAPI.
 
-![Screenshot_27-1-2025_182750_localhost](https://github.com/user-attachments/assets/c0ddee0e-160f-43d0-a717-15c0ef72b49c)
+![image](https://github.com/user-attachments/assets/4d441c23-f5dd-4380-a35e-70f9784b6af2)
+
 
 ## Features
 Current weather conditions by city or location.
